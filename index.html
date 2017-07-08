@@ -61,11 +61,52 @@
        if (input == "flood") {
          return $result.html("auto car turns around")
        }
+        
+       if (input == "river"){ 
+         return $result.html ("auto car drivers the other way")
+       }
+       
+       if (input == " grand canyon") {
+         return $result.html ("auto car goes towad it")
+       }
+       
+       if (input == "green light") {
+         return $result.html (" auto car goes")
+       }
+       
+       if (input == "yellow light") {
+         return $result.html (" auto car slows down")
+       }
+       
+       if (input == "fire truck") {
+         return $result.html (" auto car stop on side of street")
+       }
+       
+       if (input == "bicyicle") {
+         return $result.html (" auto car stops")
+       }
+       
+       if (input == "dinosuar") {
+         return $result.html (" auto car drives the other way fast")
+       }
+       
+       if (input == " billborad") {
+         return $result.html ("auto car keeps driving")
+       }
+       
+       if (input == "famous celebrity") {
+         return $result.html ("auto car stops")
+       }
+       
+       if (input == "airplane") {
+         return $result.html ("auto car keeps driving")
+       }
+       
+       
+      
+    
 
-       $result.html("auto car does not know how to handle this situation")
-     })
-
-   }
+   
    if (document.addEventListener) document.addEventListener("DOMContentLoaded", autorun, false);
    else if (document.attachEvent) document.attachEvent("onreadystatechange", autorun);
    else window.onload = autorun;
